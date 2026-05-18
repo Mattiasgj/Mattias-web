@@ -9,16 +9,16 @@ function Navbar() {
 				Mattias Gil Johansson
 			</Link>
 			<Link to="/education">
-				Education <Book size={16} />
+				Education <Book />
 			</Link>
 			<Link to="/projects">
-				Projects <Laptop size={16} />
+				Projects <Laptop />
 			</Link>
 			<Link to="/contact">
-				Contact Me <Mail size={16} />
+				Contact Me <Mail />
 			</Link>
 			<Link to="https://github.com/Mattiasgj">
-				Github <Link2 size={16} />
+				Github <Link2 />
 			</Link>
 		</nav>
 	);

@@ -4,22 +4,21 @@
 	--text-color: #E0E0E0;
 
 	/* Text hierarchy */
-	--text-heading: #F5F5F5;      /* Crisp white for titles */
-	--text-muted: #A0A0A0;        /* Softer gray for body text */
+	--text-heading: #F5F5F5;      
+	--text-muted: #A0A0A0;
 
-	/* Surface colors (for cards, navbars, and headers) */
-	--surface-lowest: #1a1a1a;    /* Slightly lighter than background */
-	--surface-card: #242424;      /* High contrast container background */
-	--border-color: #2d2d2d;      /* Subtle dividers and borders */
+	--surface-lowest: #1a1a1a;    
+	--surface-card: #242424;      
+	--border-color: #2d2d2d;      
 
 	/* Accents & Actions */
-	--accent-primary: #4fd1c5;     /* Vibrant teal for main buttons & links */
-	--accent-hover: #38b2ac;       /* Darker teal for hover states */
-	--accent-secondary: #63b3ed;   /* Light blue for secondary highlights */
+	--accent-primary: #4fd1c5;     
+	--accent-hover: #38b2ac;       
+	--accent-secondary: #63b3ed;   
 	
 	/* Feedback states */
-	--error: #fc8181;              /* Soft red for errors */
-	--success: #68d391;            /* Soft green for success messages */
+	--error: #fc8181;           
+	--success: #68d391;            
 }
 
 
@@ -34,15 +33,4 @@ html, body {
   padding: 0;
   height: 100%;
   font-family: 'Ubuntu', sans-serif;
-}
-
-/* MAIN GRID */
-.home-grid{
-    display: grid;
-    grid-template-areas: 
-    "navbar"
-    "main";
-    grid-template-rows: 75px 1fr;
-	min-height: 100vh;
-    background-color: var(--background-color);
 }
