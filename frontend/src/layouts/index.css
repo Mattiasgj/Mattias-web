@@ -5,7 +5,8 @@
 
 	/* Text hierarchy */
 	--text-heading: #F5F5F5;      
-	--text-muted: #A0A0A0;
+	--text-muted: #cccccc;
+	--text-more-muted: #bdbdbd;
 
 	--surface-lowest: #1a1a1a;    
 	--surface-card: #242424;      
@@ -14,7 +15,7 @@
 	/* Accents & Actions */
 	--accent-primary: #4fd1c5;     
 	--accent-hover: #38b2ac;       
-	--accent-secondary: #63b3ed;   
+	--accent-secondary: #0066FF;   
 	
 	/* Feedback states */
 	--error: #fc8181;           

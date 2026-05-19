@@ -7,5 +7,7 @@
 	
     grid-template-rows: 75px 1fr;
 	min-height: 100vh;
-    background-color: var(--background-color);
+    background-image: url('../assets/background.svg');
+    background-size: cover;
+    background-position: center;
 }
