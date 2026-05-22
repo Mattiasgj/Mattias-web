@@ -8,9 +8,6 @@ function Introtext() {
 			<p className={styles.description}>
 				I'm a <span>backend</span> developer
 			</p>
-			<p className={styles.details}>
-				I specialize in building backend systems and APIs.
-			</p>
 			<div className={styles.skills}>
 				<p>C# ASP.NET Core, Node.js Express, and Python Django.</p>
 				<p>

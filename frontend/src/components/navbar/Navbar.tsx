@@ -14,8 +14,8 @@ function Navbar() {
 				LinkedIn
 				<img className={styles.icon} src={LinkedIn} alt="LinkedIn" />
 			</Link>
-			<Link to="/education">
-				Education <Book />
+			<Link to="/about">
+				About <Book />
 			</Link>
 			<Link to="/projects">
 				Projects <Laptop />
