@@ -3,8 +3,7 @@
     display: grid;
     grid-template-areas: 
     "navbar navbar"
-    "intro-text intro-text"
-	"footer footer";
+    "about-text about-text";
     grid-template-rows: 75px 1fr;
 	min-height: 100vh;
     background-color: var(--background-color);
