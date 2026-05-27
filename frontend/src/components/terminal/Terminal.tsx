@@ -28,9 +28,10 @@ export function Terminal() {
 				break;
 
 			case "projects":
-				response = "Personal website: Github: https://github.com/Mattiasgj/Mattias-web";
+				response =
+					"Personal website: Github: https://github.com/Mattiasgj/Mattias-web";
 				break;
-			
+
 			case "clear":
 				setHistory([]);
 				setInput("");
@@ -65,7 +66,7 @@ export function Terminal() {
 				))}
 
 				<div className={styles.commandline}>
-					<span>C:\Users\gillm&gt;</span>
+					<span className={styles.inputText}>C:\Users\gillm&gt;</span>
 
 					<input
 						autoFocus

@@ -56,3 +56,8 @@
 	white-space: pre-wrap;
 	padding-bottom: 10px;
 }
+
+.inputText {
+	color: #0f0;
+	font-family: 'Courier New', Courier, monospace;
+}

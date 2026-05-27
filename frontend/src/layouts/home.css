@@ -10,4 +10,5 @@
     background-color: var(--background-color);
     background-size: cover;
     background-position: center;
+	overflow-y: auto;
 }
