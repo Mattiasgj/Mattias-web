@@ -22,21 +22,24 @@ function AboutText() {
 			<div className={styles.links}>
 				<div className={styles.linkstitle}>Useful Links</div>
 				<div className={styles.linkscontainer}>
-					<a href="https://www.linkedin.com/in/mattias-gil-johansson-2053b4212/">
+					<a
+						href="https://www.linkedin.com/in/mattias-gil-johansson-2053b4212/"
+						target="_blank"
+					>
 						<img
 							className={styles.logos}
 							src={LinkedIn}
 							alt="LinkedIn"
 						/>
 					</a>
-					<a href="https://github.com/mattiasgj">
+					<a href="https://github.com/mattiasgj" target="_blank">
 						<img
 							className={styles.logos}
 							src={Github}
 							alt="GitHub"
 						/>
 					</a>
-					<a href="mailto:gillm7623@gmail.com">
+					<a href="mailto:gillm7623@gmail.com" target="_blank">
 						<Mail className={styles.logos} />
 					</a>
 				</div>

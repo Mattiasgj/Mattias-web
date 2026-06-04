@@ -54,6 +54,7 @@ function Introtext() {
 							className={styles.commitcard}
 							href={commit.url}
 							key={commit.url}
+							target="_blank"
 						>
 							<div className={styles.commitcardHeader}>
 								<span className={styles.commitTag}>Commit</span>
