@@ -63,3 +63,22 @@ span {
 a:hover .logos {
 	transform: translateY(-2px);
 }
+
+@media (max-width: 600px){
+	.about { 
+		width: 80%;
+	}
+
+	.logo {
+		width: 100%;
+		height: auto;
+	}	
+
+	.linkscontainer {
+		width: 100%;
+	}
+
+	.text {
+		font-size: 16px;
+	}
+}

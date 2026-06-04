@@ -11,7 +11,7 @@
 	align-self: center;
 	justify-self: center;
 	border-radius: 24px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .introtext h2 {
@@ -190,4 +190,39 @@
 	color: var(--text-color);
 	font-family: 'Upheaval', sans-serif;
 	margin-top: 8px;
+}
+
+@media (max-width: 600px){
+	.introtext {
+		max-width: 90%;
+		min-height: auto;
+		margin-top: 30px;
+	}
+
+	.introtext img {
+		width: 100%;
+		height: auto;
+		padding-top: 5px;
+	}
+	
+	.introtext h2 {
+		font-size: 14px;
+		padding-left: 20px;
+	}
+
+	.skills p {
+		text-align: center;
+	}
+	
+	.introtext .description {
+		font-size: 18px;
+		max-width: 100%;
+		margin: 16px 20px 0;
+	}
+	
+	.introtext .details {
+		font-size: 14px;
+		max-width: 100%;
+		margin: 12px 0px 0;
+	}
 }

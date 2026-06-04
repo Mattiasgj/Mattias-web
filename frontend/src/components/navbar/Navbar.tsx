@@ -8,6 +8,9 @@ function Navbar() {
 			<Link className={styles.name} to="/">
 				Mattias Gil Johansson
 			</Link>
+			<Link className={styles.nameSmall} to="/">
+				Mattias
+			</Link>
 			<Link to="/about">
 				About <Book />
 			</Link>
