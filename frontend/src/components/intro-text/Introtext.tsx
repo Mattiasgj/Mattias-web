@@ -22,7 +22,7 @@ function Introtext() {
 		});
 
 	useEffect(() => {
-		fetch("http://localhost:3000/api/commits")
+		fetch(`${import.meta.env.VITE_API_BASE}/api/commits`)
 			.then((res) => res.json())
 			.then((data) => setCommits(data))
 			.catch((err) => console.error(err));

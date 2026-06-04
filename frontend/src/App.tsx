@@ -9,13 +9,15 @@ import "./layouts/index.css";
 function App() {
 	return (
 		<Router>
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/terminal" element={<TerminalPage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/contact" element={<Contact />} />
-			</Routes>
+			<div className="page-container">
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/terminal" element={<TerminalPage />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/contact" element={<Contact />} />
+				</Routes>
+			</div>
 		</Router>
 	);
 }

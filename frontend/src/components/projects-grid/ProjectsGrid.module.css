@@ -2,8 +2,7 @@
 	grid-area: projects;
 	width: 70%;
 	justify-self: center;
-	margin-top: 40px;
-	border: 1px solid var(--border-color);
+	margin-top: 40px;	
 	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 	border-radius: 12px;
 }
@@ -25,7 +24,6 @@ h1 {
 	color: var(--text-color);
 	font-size: 24px;
 	margin-bottom: 20px;
-	text-decoration: underline var(--accent-secondary) 2px;
 }
 
 .projectCard{
@@ -73,5 +71,8 @@ h1 {
 @media (max-width: 600px){
 	.projects{
 		justify-content: center;
+	}
+	.projectsContainer{
+		margin: 10px;
 	}
 }

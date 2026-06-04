@@ -33,9 +33,15 @@ html, body {
   margin: 0;          
   padding: 0;
   height: 100%;
+  background-color: var(--background-color);
 }
 
 @font-face {
   font-family: "Upheaval";
   src: url("../assets/fonts/upheaval/upheavtt.ttf") format("truetype");
+}
+
+.page-container {
+    max-width: 1500px;
+    margin: 0 auto; 
 }

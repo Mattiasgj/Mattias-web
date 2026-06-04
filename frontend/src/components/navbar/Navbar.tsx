@@ -1,25 +1,58 @@
 import styles from "./Navbar.module.css";
-import { Link } from "react-router-dom";
-import { Mail, Laptop, Book, SquareTerminal } from "lucide-react";
+import { NavLink } from "react-router-dom";
+import { Laptop, Book, SquareTerminal } from "lucide-react";
 
 function Navbar() {
 	return (
 		<nav className={styles.navbar}>
-			<Link className={styles.name} to="/">
+			<NavLink
+				to="/"
+				className={({ isActive }) =>
+					isActive ? `${styles.name} ${styles.active}` : styles.name
+				}
+			>
 				Mattias Gil Johansson
-			</Link>
-			<Link className={styles.nameSmall} to="/">
+			</NavLink>
+			<NavLink
+				className={({ isActive }) =>
+					isActive
+						? `${styles.nameSmall} ${styles.active}`
+						: styles.nameSmall
+				}
+				to="/"
+			>
 				Mattias
-			</Link>
-			<Link to="/about">
+			</NavLink>
+			<NavLink
+				to="/about"
+				className={({ isActive }) =>
+					isActive
+						? `${styles.navLink} ${styles.active}`
+						: styles.navLink
+				}
+			>
 				About <Book />
-			</Link>
-			<Link to="/projects">
+			</NavLink>
+			<NavLink
+				className={({ isActive }) =>
+					isActive
+						? `${styles.navLink} ${styles.active}`
+						: styles.navLink
+				}
+				to="/projects"
+			>
 				Projects <Laptop />
-			</Link>
-			<Link to="/terminal" className={styles.terminal}>
+			</NavLink>
+			<NavLink
+				to="/terminal"
+				className={({ isActive }) =>
+					isActive
+						? `${styles.terminal} ${styles.active}`
+						: styles.terminal
+				}
+			>
 				Terminal <SquareTerminal />
-			</Link>
+			</NavLink>
 		</nav>
 	);
 }
