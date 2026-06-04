@@ -3,7 +3,7 @@
     display: grid;
     grid-template-areas: 
     "navbar navbar"
-    "intro-text intro-text"
+    "contact contact"
 	"footer footer";
     grid-template-rows: 75px 1fr;
 	min-height: 100vh;

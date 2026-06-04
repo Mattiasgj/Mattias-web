@@ -17,10 +17,7 @@ function Navbar() {
 			<Link to="/projects">
 				Projects <Laptop />
 			</Link>
-			<Link to="/contact">
-				Contact Me <Mail />
-			</Link>
-			<Link to="/terminal">
+			<Link to="/terminal" className={styles.terminal}>
 				Terminal <SquareTerminal />
 			</Link>
 		</nav>
