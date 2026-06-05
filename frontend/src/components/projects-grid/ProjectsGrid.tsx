@@ -1,4 +1,5 @@
 import styles from "./ProjectsGrid.module.css";
+import MATTIAS from "../../assets/MATTIAS.svg";
 
 function ProjectsGrid() {
 	return (
@@ -12,7 +13,7 @@ function ProjectsGrid() {
 						target="_blank"
 					>
 						<div className={styles.imgContainer}>
-							<img src="./src/assets/MATTIAS.svg" alt="Mattias" />
+							<img src={MATTIAS} alt="Mattias" />
 						</div>
 						<div className={styles.projectCardText}>
 							Mattias-Web

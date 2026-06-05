@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./Introtext.module.css";
 import Github from "../../assets/github.svg";
+import MATTIAS from "../../assets/MATTIAS.svg";
 
 type Commit = {
 	message: string;
@@ -31,7 +32,7 @@ function Introtext() {
 	return (
 		<div className={styles.introtext}>
 			<h2>HI, I AM</h2>
-			<img src="./src/assets/MATTIAS.svg" alt="mattias" />
+			<img src={MATTIAS} alt="mattias" />
 			<p className={styles.description}>
 				I'm a <span>backend</span> developer
 			</p>

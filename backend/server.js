@@ -15,4 +15,4 @@ server.use(cors());
 // Routes
 server.use("/api", commitsRouter);
 
-export default server;
+server.listen(3000);
