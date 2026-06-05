@@ -23,7 +23,7 @@ function Introtext() {
 		});
 
 	useEffect(() => {
-		fetch(`${import.meta.env.VITE_API_BASE}/api/commits`)
+		fetch("/api/commits")
 			.then((res) => res.json())
 			.then((data) => setCommits(data))
 			.catch((err) => console.error(err));
