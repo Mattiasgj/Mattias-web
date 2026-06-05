@@ -1,11 +1,11 @@
-import { getRecentCommits } from "../services/fetchGithub.js";
+import { getRecentCommits } from "./services/fetchGithub.js";
 
 let cache = null;
 let cacheTime = 0;
 
 const CACHE_DURATION = 120000;
 
-export async function fetchCommitsController(req, res) {
+export async function handler(req, res) {
 	try {
 		const now = Date.now();
 
