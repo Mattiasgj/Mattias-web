@@ -5,7 +5,7 @@ let cacheTime = 0;
 
 const CACHE_DURATION = 120000;
 
-export async function handler(req, res) {
+async function handler(req, res) {
 	try {
 		const now = Date.now();
 
@@ -31,3 +31,5 @@ export async function handler(req, res) {
 		return res.status(500).json({ error: err.message });
 	}
 }
+
+export default handler;
